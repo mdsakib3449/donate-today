@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  font-family: "Inter";
+  font-family: "Open Sans";
+}
+
+.primary-button {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  border: 0;
+  padding: 12px 15px;
+  width: 160;
+  border-radius: 5px;
+  background: #ff5959;
+}
+
+/* heder section */
+.header {
+  background-image: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+    url(../images/donation13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100%; */
+  height: 700px;
+  /* background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%); */
+}
+
+.header-title {
+  color: white;
+  text-align: center;
+  padding: 150px 0 30px 0;
+  font-weight: 700;
+  font-size: 65px;
+}
+
+.header-description {
+  color: white;
+  text-align: center;
+  padding: 0 350px 0 350px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.donate-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Donate Amount Section */
+
+.section-title {
+  color: black;
+  text-align: center;
+  margin-top: 130px;
+  font-weight: 700;
+  font-size: 45px;
+}
+.section-description {
+  color: #707070;
+  text-align: center;
+  padding: 25px 350px 35px 350px;
+
+  font-size: 15px;
+}
+.donate-amount {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0 250px;
+  margin-bottom: 30px;
+}
+
+.amount {
+  border-radius: 5px;
+  width: 135px;
+  height: 150px;
+  background-color: #fef7f7;
+  block-size: fit-content;
+}
+
+.amount h1 {
+  font-size: 30px;
+  color: #707070;
+  font-weight: 900;
+  height: 120px;
+  width: 135px;
+  text-align: center;
+}
+
+/* Donate plan section */
+.donate-plan-container {
+  display: flex;
+  margin-top: 50px;
+  gap: 24px;
+  margin: 0 155px;
+  padding: 45px;
+}
+.icon {
+  margin-top: 50px;
+}
+.donate-plan-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.donate-plan-description {
+  font-size: 15px;
+  color: #707070;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.donate-plan-1 {
+  border-radius: 5px;
+  background: #4f9da61a;
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.donate-plan-2 {
+  border-radius: 5px;
+  background: #fe56561a;
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.donate-plan-3 {
+  border-radius: 5px;
+  background: #fff4d6 10%;
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
