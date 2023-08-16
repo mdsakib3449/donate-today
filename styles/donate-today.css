@@ -46,7 +46,6 @@ img {
   font-size: 18px;
   margin-bottom: 50px;
 }
-
 .donate-button {
   text-align: center;
   margin-top: 30px;
@@ -54,7 +53,6 @@ img {
 }
 
 /* Donate Amount Section */
-
 .section-title {
   color: black;
   text-align: center;
@@ -76,7 +74,9 @@ img {
   margin: 0 250px;
   margin-bottom: 30px;
 }
-
+.donate-amount .amount p {
+  margin-top: 35px;
+}
 .amount {
   font-weight: bold;
   padding: 20px;
@@ -88,15 +88,15 @@ img {
   text-align: center;
   border-radius: 10px;
 }
-
-input {
+.donate-today input {
   text-align: center;
   margin-top: 40px;
-  width: 50%;
+  width: 40%;
   padding: 5px;
   border: none;
   border-bottom: 1px solid rgb(172, 167, 167);
-  justify-content: center;
+  margin-left: 440px;
+  font-size: 20px;
 }
 
 /* Donate plan section */
@@ -121,7 +121,6 @@ input {
   margin-top: 30px;
   margin-bottom: 50px;
 }
-
 .donate-plan-1 {
   border-radius: 5px;
   background: #4f9da61a;
@@ -145,6 +144,7 @@ input {
 .donate-motivation {
   margin-top: 150px;
 }
+
 /* motivation-1 */
 .motivation-1 {
   display: flex;
@@ -152,10 +152,8 @@ input {
   gap: 100px;
   align-items: center;
 }
-
 .motivation-title {
   color: black;
-  /* margin-top: 130px; */
   font-weight: 700;
   font-size: 45px;
   margin-bottom: 30px;
@@ -186,10 +184,67 @@ input {
 .motivation-details-2 {
   margin-right: 210px;
 }
-
 .motivation-details-2 .primary-button {
   margin-bottom: 50px;
 }
 .motivation-details-2 .primary-button {
   margin-top: 30px;
+}
+
+/* update section */
+.update-box {
+  display: flex;
+  background-color: bisque;
+  width: 900px;
+  padding: 50px;
+  text-align: center;
+  margin: 0 250px 100px 250px;
+}
+.update-box input {
+  background-color: #d9d9d9;
+}
+.get-updates .section-description {
+  margin-bottom: 50px;
+}
+.get-updates input[type="email"] {
+  width: 30%;
+  height: 34px;
+  border: 0;
+  padding: 10px 40px;
+  margin-left: 230px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.subscribe-button {
+  padding: 15px 15px;
+  height: 54px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: none;
+  background: #ff5959;
+  color: #ffffff;
+  font-weight: 500;
+  border: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* footer section */
+.footer-heading {
+  text-align: center;
+  color: #ff5959;
+  font-family: Lobster;
+  font-size: 35px;
+  font-weight: 400;
+}
+footer {
+  background-color: #121212;
+  width: 100%;
+  padding: 40px;
+}
+.slogan {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
 }
