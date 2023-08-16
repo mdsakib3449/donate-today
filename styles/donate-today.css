@@ -15,6 +15,10 @@
   background: #ff5959;
 }
 
+img {
+  border-radius: 10px;
+}
+
 /* heder section */
 .header {
   background-image: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
@@ -40,11 +44,13 @@
   padding: 0 350px 0 350px;
   font-weight: 700;
   font-size: 18px;
+  margin-bottom: 50px;
 }
 
 .donate-button {
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* Donate Amount Section */
@@ -60,41 +66,46 @@
   color: #707070;
   text-align: center;
   padding: 25px 350px 35px 350px;
-
   font-size: 15px;
+  margin-top: 10px;
 }
 .donate-amount {
   display: flex;
-  justify-content: center;
-  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 250px;
   margin-bottom: 30px;
 }
 
 .amount {
-  border-radius: 5px;
-  width: 135px;
-  height: 150px;
-  background-color: #fef7f7;
-  block-size: fit-content;
-}
-
-.amount h1 {
-  font-size: 30px;
-  color: #707070;
-  font-weight: 900;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #fcf7f7;
   height: 120px;
   width: 135px;
+  color: #707070;
+  font-size: 30px;
   text-align: center;
+  border-radius: 10px;
+}
+
+input {
+  text-align: center;
+  margin-top: 40px;
+  width: 50%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid rgb(172, 167, 167);
+  justify-content: center;
 }
 
 /* Donate plan section */
 .donate-plan-container {
   display: flex;
-  margin-top: 50px;
   gap: 24px;
   margin: 0 155px;
   padding: 45px;
+  margin-bottom: 150px;
 }
 .icon {
   margin-top: 50px;
@@ -128,4 +139,57 @@
   background: #fff4d6 10%;
   padding: 30px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* motivation section */
+.donate-motivation {
+  margin-top: 150px;
+}
+/* motivation-1 */
+.motivation-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+}
+
+.motivation-title {
+  color: black;
+  /* margin-top: 130px; */
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.motivation-description {
+  color: #707070;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.motivation-image {
+  margin-right: 210px;
+}
+.motivation-details {
+  margin-left: 210px;
+}
+
+/* motivation-2 */
+.motivation-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+}
+.motivation-image-2 {
+  margin-left: 210px;
+}
+.motivation-details-2 {
+  margin-right: 210px;
+}
+
+.motivation-details-2 .primary-button {
+  margin-bottom: 50px;
+}
+.motivation-details-2 .primary-button {
+  margin-top: 30px;
 }
