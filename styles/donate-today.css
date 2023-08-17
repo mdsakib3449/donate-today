@@ -60,6 +60,13 @@ img {
   font-weight: 700;
   font-size: 45px;
 }
+.input-amount {
+  text-align: center;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
 .section-description {
   color: #707070;
   text-align: center;
@@ -95,7 +102,6 @@ img {
   padding: 5px;
   border: none;
   border-bottom: 1px solid rgb(172, 167, 167);
-  margin-left: 440px;
   font-size: 20px;
 }
 
@@ -198,7 +204,8 @@ img {
   width: 900px;
   padding: 50px;
   text-align: center;
-  margin: 0 250px 100px 250px;
+  /* margin: 0 250px 100px 250px; */
+  margin: auto;
 }
 .update-box input {
   background-color: #d9d9d9;
@@ -239,8 +246,8 @@ img {
 }
 footer {
   background-color: #121212;
-  width: 100%;
   padding: 40px;
+  margin-top: 100px;
 }
 .slogan {
   text-align: center;
